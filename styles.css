@@ -60,3 +60,59 @@ button{
     border: none;
     border-radius: 5px;
 }
+
+.second {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.second h2{
+    margin-top: 40px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.imgList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.imgDesc{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.imgDesc p{
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.imgDesc img{
+    border-radius: 20px; 
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.quote h3 {
+    width: 50%;    
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote p{
+    width: 30%;
+    text-align: end;
+}
