@@ -5,6 +5,10 @@ body{
     flex-flow: column;
     justify-content: space-between;
     align-items:normal;
+    min-width: 800px;
+}
+a {
+    text-decoration: none;
 }
 .top {
    
@@ -96,18 +100,38 @@ button{
 }
 
 .imgDesc img{
+    transition: width 200ms;
     border-radius: 20px; 
     width: 194px;
 }
 
+.imgDesc img:hover{
+    transition: width 200ms;
+    
+    border-radius: 20px; 
+    width: 300px;
+  
+}
+
 .quote {
+    transition: background-color 1s;
     background-color: #e5e7eb;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center; 
 }
+
+.quote:hover, .quote:hover h3{
+    transition: background-color 1s;
+    background-color: #1F2937;
+    color: white;
+    transition: background-color 3s color 1s;
+     
+}
 .quote h3 {
+    transition: background-color 1s;
+    background-color: #e5e7eb;
     width: 50%;    
     font-size: 36px;
     font-weight: 300;
